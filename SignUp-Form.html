@@ -1,0 +1,127 @@
+
+<!-- Bisrat Kebede , YearUP-NCR March,2019 -->
+
+<!--
+Professionals will be asked to sign up.
+EWC might ask additional information which emphasize on the legitimacy of one's profession for the 
+sake of security.
+-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        
+        <meta charset="UTF-8">
+         <link rel ="stylesheet" type="text/css" href ="seconedStyle.css" />
+        <title> Form | Sign Up </title>
+      
+    </head>
+    
+        <h2 class="all"> Please Provide Your Information</h2>
+        <p> <a href="Project-EWC(Main).html"> Home Page |</a></p>
+        <p> <a href=https://unsplash.com/photos/MUcM3GCCQPk target="_blank" >Picture by : Daggy J  (Creative Commons Certified) </a> </p>
+        
+     
+   
+
+      <div class="login-page">  <!-- I used the same concept as Login Form-->
+        <div class="Form">
+       
+                    
+          <form  action="ewc-table.html" method="post" >
+         
+            <input  type="text"  name="first-name" placeholder="First Name"
+                maxlength="10"  /> 
+            <input  type="text"  name="last-name"  placeholder="Last Name"
+                maxlength="6"  /> <br/>
+            <input  type="email"  name="email"  placeholder="Your current email address"
+                maxlength="97"  /> 
+        
+            <input  type="email"  name="email"  placeholder="Confirm email address"
+                maxlength="97"  /><br/>
+       
+
+       
+            <input type="password"   placeholder="Password" maxlength="128" />
+         
+            <input type="password"   placeholder="Confirm Password" maxlength="128" />
+            
+            <strong><label class="c">Birthday</label> </strong>  <br/> <!-- Important Data so strong tag will let the web browser that this is 
+                                                                    important -->
+            <select name="Day"> <!-- birth day selection, I could have just left it blank so that the users type it, but I want to save their time and 
+                                                select tag helps to select anything under list of options-->
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option>
+                <option value="21">21</option>
+                <option value="22">22</option>
+                <option value="23">23</option>
+                <option value="24">24</option>
+                <option value="25">25</option>
+                <option value="26">26</option>
+                <option value="27">27</option>
+                <option value="28">28</option>
+                <option value="29">29</option>
+                <option value="30">30</option>
+                <option value="31">31</option>
+            </select>
+            
+            <select name="Month"><!--Birth month selection -->
+                <option value="1">January</option>
+                <option value="2">February</option>
+                <option value="3">March</option>
+                <option value="4">April</option>
+                <option value="5">May</option>
+                <option value="6">June</option>
+                <option value="7">July</option>
+                <option value="8">August</option>
+                <option value="9">September</option>
+                <option value="10">October</option>
+                <option value="11">November</option>
+                <option value="12">December</option>
+            </select>
+
+            <input type="tel" name="yyyy" value=""  placeholder="Year"  minlength="1" maxlength="4"><br/><!--Birth year selection,
+                                                              tel type let users enter or edit 
+                                                            telephone numbers, my focus is number because year can only be number ,
+                                                                as a result I used tel-->
+            <strong><label class="c"> Gender</label> </strong><br/>  <!-- Important Data so strong tag will let the web browser that this is 
+                                                                    important -->
+            <p id="last"> <label class="c" for="male">M</label> <input type="radio" name="male" id="male" /><!-- radio button selection -->
+           
+            <label class="c" for="female">F</label>
+            <input type="radio" name="male" id="female" />
+            <label class="c" for="other">Other</label>
+            <input type="radio" name="male" id="other" /><br/>
+            </p>
+        
+
+            <button>Sign Up</button> 
+          
+            <p class="c">Already have an account?<a href="Login-Form.html" > Login</a> </p> <!--This will redirect users to login page since they 
+                                                                    already hold EWC account-->
+           </form>
+        </div>
+      </div>
+        
+</body>
+       
+        
+    
+</html>

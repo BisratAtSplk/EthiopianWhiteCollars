@@ -1,0 +1,44 @@
+<!-- Bisrat Kebede,  March 2019 -->
+
+<!DOCTYPE html>
+<!--
+My web site, it needs log in to be able to access personal account.
+-->
+<html lang="en">
+    <head>
+        
+        <meta charset="UTF-8">
+         <link rel ="stylesheet" type="text/css" href ="seconedStyle.css" />
+        <title> Form | Log In </title>
+      
+    </head>
+    <body>
+        <h2 class="all"> Please Provide E-mail Address & Password.</h2>
+        <p> <a href="Project-EWC(Main).html"> Home Page |</a></p>
+        <p> <a href=https://unsplash.com/photos/MUcM3GCCQPk target="_blank" >Picture by : Daggy J (Creative Commons Certified) </a> </p>  
+      
+      <div class="login-page"><!-- Added css which is responsible for overall login-form-->
+      
+      
+        <div class="Form"> <!-- Added css which is responsible for the form , I cann do anything over the form also I can manipulate and play with the
+                                            element of the form like .Form input ,.Form button etc and in order to accomplish this
+                                                I needed to use nested div tag/ for grouping, I referred bunch of web-sites including w3schools.com-->
+            <form  action="ewc-table.html" method="post"> <!-- I  used two attributes, action:- holds information and it will redirect us to the page we want,
+                                    post:- help to hide sensitive information like password from url section and also    
+                                       helps to send lot of information   -->
+                                       
+                <input type="email" id="email" name="email" placeholder="Your E-Mail" />
+                <input type="password" name="password" placeholder="Your Password" />
+                <br/>
+                <label for="Subscribe"><mark>Subscribe for daily Ethio-Professional news </mark></label>
+                <input type="checkbox" name="Subscribe" id="Subscribe" /> <!-- This gives the users an option if they want to get up-to date news 
+                                                                      regarding professional news --> <br/>
+                <button>Sign In</button> <!-- I used button tag, it makes it very easy for me to access it on the css page eg. .Form button-->
+                
+                                                                  
+
+            </form>
+        </div>
+      </div>
+    </body>
+</html>

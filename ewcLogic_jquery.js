@@ -1,7 +1,7 @@
  //Bisrat Kebede, April 28,2019
 
 
-//Jquery, This specific jquery will help identify if the profsional is actually a human or a robot
+//Jquery, This specific jquery will help identify if the Professional is actually a human or a robot
 //I specifically includes reminder instead of regular math, its because since they are professionals, they should be a ble to identify this easy math problem
 //BisratJquery
 
